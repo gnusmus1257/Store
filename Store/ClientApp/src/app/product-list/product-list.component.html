@@ -1,0 +1,3 @@
+<div *ngFor="let product of products">
+  <app-product-element [price]="product.price" [category]="product.category.name" [name]="product.name" [shortDescription]="product.description"></app-product-element>
+</div>
